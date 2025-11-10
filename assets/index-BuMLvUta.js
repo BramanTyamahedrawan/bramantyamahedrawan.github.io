@@ -311,13 +311,6 @@ const profile = {
         'Kubernetes', 'DevOps & CI/CD', 'MySQL',
         'Firebase', 'Google Cloud Platform', 
     ],
-    certifications: [
-        'Network Engineer Specialty - Alibaba Cloud (2025)',
-        'Computer Software Programming - BNSP (2025)',
-        'IT Support - Google Professional Certificate (2024)',
-        'DevOps Engineer Professional - Alibaba Cloud (2023)',
-        'Big Data Analytics - Alibaba Cloud (2023)'
-    ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
