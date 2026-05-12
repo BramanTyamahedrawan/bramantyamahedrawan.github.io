@@ -84,6 +84,25 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
+      icon: Cpu,
+      title: "Programmer & IT Support",
+      company: "Universitas Brawijaya",
+      period: "Nov 2025 - May 2026",
+      location: "Malang, East Java",
+      responsibilities: [
+        "Developed the frontend architecture of the Halorsub Progressive Web App (PWA) using Next.js Turbopack, integrating framer-motion for staggered grid animations and Lottie files for dynamic loading and error states to enhance UI/UX.",
+        "Engineered a customizable dashboard featuring a real-time ticketing queue system powered by Server-Sent Events (SSE) streaming APIs, alongside a dynamic 6-grid layout allowing users to pin 1 to 5 preferred polyclinics for quick doctor booking.",
+        "Built and deployed real-time inpatient room availability displays shown on IGD TVs and in front of the OKA operation rooms, including surgery schedule information for patients and medical staff.",
+        "Built an interactive 3-column menu with drag-and-drop functionality to reorder all 24 polyclinic cards with native smartphone-like UX, while securing API flows by disabling browser DevTools and using IndexedDB for token storage.",
+        "Acted as the first point of contact for technical support, diagnosing and resolving an average of 5-10 weekly hardware and software issues to maintain smooth daily operations.",
+        "Installed and maintained Windows 10/11 systems, performing hardware upgrades including RAM and SSD replacements on approximately 15 PCs and all-in-one devices to improve boot performance.",
+        "Managed LAN infrastructure and network connectivity for multiple office departments by configuring IPv4 settings and installing over 50 meters of CAT6 cabling.",
+        "Conducted targeted PC hardware repairs across 10 units during employment, using multimeter tools for power supply diagnostics and performing thermal repasting to resolve overheating.",
+        "Specialized in high-frequency printer troubleshooting across LaserJet, Brother, and dot-matrix (LX/MX series), resolving clogged nozzles, air pockets, mixed cartridges, and waste system failures.",
+        "Engineered custom mechanical solutions for recurring printer failures, including refurbishing worn paper pickup rollers, resizing loose paper sensor springs, repairing damaged encoder strips, and retrofitting broken spring mounts with custom wire hooks.",
+      ],
+    },
+    {
       icon: Network,
       title: "Server Administrator",
       company: "Politeknik Negeri Malang PSDKU Lumajang",
